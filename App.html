@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your App Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <link red="scr" href="Script.js">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/App-styles.css">
+    <link red="scr" href="Scripts/Script.js">
 </head>
 <body>
 
     <header>
         <div class="top-bar">
             <a href="Index.html" class="logo">
-                <img src="Orra Logo.png" alt="Your Logo">
+                <img src="Images/Orra Logo.png" alt="Your Logo">
             </a>
             <div class="company-name">Tagline</div>
             <div class="buttons">
@@ -25,20 +26,21 @@
     <main class="app-page">
         <section id="app-section" class="full-screen-section">
             <!-- Large square image (replace with your app logo) -->
+            <h2 style="text-align: center; font-size: 2em; margin-top: 200px;">Coming Soon!</h2>
+
             <div class="centered-image large-image">
-                <img src="Orra-app.png" alt="App Logo" width="400" height="400">
+                <img src="Images/Orra-app.png" alt="App Logo" width="400" height="400">
             </div>
 
             <!-- Two smaller rectangular images -->
             <div class="centered-image">
-                <img src="Orra Logo.png" alt="App Store 1" width="100" height="80">
-                <img src="Orra Logo.png" alt="App Store 2" width="100" height="80">
+                <img src="Images/App-store.png" alt="App Store 1" width="400" height="200">
+                <img src="Images/Google-play.png" alt="App Store 2" width="400" height="200">
             </div>
         </section>
 
         <section class="contact-section">
-            <h2>Coming Soon!</h2>
-            <p>Get notified when our app is ready. Enter your email below:</p>
+            <h4>Get notified when our app is ready. Enter your email below:</h4>
             <form action="submit_form.php" method="post">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Your email" required>
@@ -46,7 +48,6 @@
                 <button type="submit">Notify Me</button>
             </form>
         </section>
-        
     </main>
 
     <footer class="footer">
