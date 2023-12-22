@@ -1,0 +1,97 @@
+/* Add these styles to Safety.css */
+
+.hero-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.vertical-image {
+    height: 200px;
+    width: 200px; /* Added width to control the size */
+    margin-right: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.page-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Add these styles to Safety.css */
+
+.email-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.email-section h2 {
+    color: #333;
+}
+
+.email-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.email-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.email-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.email-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.email-form button {
+    padding: 10px 20px;
+    background-color: #373b47;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-form button:hover {
+    background-color: #1a1c22;
+}
