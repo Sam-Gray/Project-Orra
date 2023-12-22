@@ -64,3 +64,27 @@
 .text-content {
     flex: 1;
 }
+
+.download-button-container {
+    text-align: center;
+    margin-top: 20px; /* Add some space between the last paragraph and the button */
+}
+
+.button-download {
+    display: inline-block;
+    padding: 30px 40px; /* Increase padding for a larger button */
+    font-size: 40px; /* Increase font size */
+    font-family: 'Baloo 2', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #373b47;
+    border: 1px solid #373b47;
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0s ease, color 0.3s ease;
+}
+
+.button-download:hover {
+    background-color: #bfc6d1; /* Darker color on hover */
+    color: #373b47;
+    transform: scale(1.2); /* Grow the button on hover */
+}

@@ -1,0 +1,33 @@
+.faq-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.faq-question {
+    cursor: pointer;
+    background-color: #bfc6d1;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.faq-question:hover {
+    background-color: #373b47;
+}
+
+.faq-question.active {
+    background-color: #373b47;
+}
+
+.faq-answer.show {
+    display: block;
+}

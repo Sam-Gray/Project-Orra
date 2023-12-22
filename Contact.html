@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your App Page</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="Styles/styles.css">
-    <link rel="stylesheet" href="Styles/App-styles.css">
-    <link rel="scr" href="Scripts/Script.js">
+    <link rel="stylesheet" href="Styles/Contact.css">
+    <script src="Scripts/Script.js"></script>
 </head>
+
 <body>
 
     <header>
@@ -18,39 +20,37 @@
             <div class="company-name">Tagline</div>
             <div class="buttons">
                 <a href="Index.html#vision-section" class="button hover-effect">Vision</a>
-                <a href="App.html" class="button hover-effect smooth-scroll">App</a>
+                <a href="App.html" class="button hover-effect">App</a>
             </div>
         </div>
     </header>
 
-    <main class="app-page">
-        <section id="app-section" class="full-screen-section">
-            <!-- Large square image (replace with the app logo) -->
-            <h2 style="text-align: center; font-size: 2em; margin-top: 40px;">Coming Soon!</h2>
+    <main class="contact-page">
+        <section class="contact-section">
+            <h2>Contact Us!</h2>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
 
-            <div class="centered-image large-image">
-                <img src="Images/Orra-app.png" alt="App Logo" width="400" height="400">
-            </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
 
-            <!-- Two smaller rectangular images -->
-            <div class="centered-image">
-                <a href="https://www.apple.com/app-store/" target="_blank">
-                    <img src="Images/App-store.png" alt="App Store 1" width="400" height="200">
-                </a>
-                <a href="https://play.google.com/store/apps/?hl=en_US&gl=US&pli=1" target="_blank">
-                    <img src="Images/Google-play.png" alt="App Store 2" width="400" height="200">
-                </a>
-            </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                </div>
+
+                <button type="submit" class="button">Submit</button>
+            </form>
         </section>
 
-        <section class="contact-section">
-            <h4>Get notified when our app is ready. Enter your email below:</h4>
-            <form action="submit_form.php" method="post">
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="Your email" required>
-        
-                <button type="submit">Notify Me</button>
-            </form>
+        <section class="contact-email">
+            <h2>Contact Our Team</h2>
+            <p>Email us at: <a href="mailto:info@example.com">info@example.com</a></p>
         </section>
     </main>
 
@@ -87,4 +87,5 @@
     </footer>
 
 </body>
+
 </html>
