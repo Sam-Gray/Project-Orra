@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Your Page Title</title>
     <link rel="stylesheet" href="Styles/styles.css">
-    <link rel="stylesheet" href="Styles/Contact.css">
+    <!-- Add specific page styles -->
+    <link rel="stylesheet" href="Styles/PageStyles.css">
     <script src="Scripts/Script.js"></script>
 </head>
 
@@ -14,44 +15,27 @@
 
     <header>
         <div class="top-bar">
-            <a href="Index.html" class="logo">
+            <a href="#" class="logo">
                 <img src="Images/Orra Logo.png" alt="Your Logo">
             </a>
-            <div class="company-name">Tagline</div>
+            <div class="company-tagline">
+                <h4>Tagline</h4>
+            </div>
             <div class="buttons">
-                <a href="Index.html#vision-section" class="button hover-effect">Vision</a>
+                <a href="#vision-section" class="button hover-effect smooth-scroll">Vision</a>
                 <a href="App.html" class="button hover-effect">App</a>
             </div>
         </div>
     </header>
 
-    <main class="contact-page">
-        <section class="contact-section">
-            <h2>Contact Us!</h2>
-            <form action="#" method="post" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Your name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Your email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
-                </div>
-
-                <button type="submit" class="button">Submit</button>
-            </form>
-        </section>
-
-        <section class="contact-email">
-            <h2>Contact Our Team</h2>
-            <p>Email us at: <a href="mailto:info@example.com">info@example.com</a></p>
-        </section>
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Include sections specific to each page -->
+        <!-- Example: -->
+        <!-- <section id="section1">
+            <h2>Section 1</h2>
+            <p>Content for section 1...</p>
+        </section> -->
     </main>
 
     <footer class="footer">

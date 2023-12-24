@@ -1,0 +1,13 @@
+p {
+    color: #555;
+    font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 30px;
+}

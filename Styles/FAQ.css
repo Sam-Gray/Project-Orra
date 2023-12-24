@@ -1,33 +1,150 @@
-.faq-section {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.faq-question {
-    cursor: pointer;
+main {
     background-color: #bfc6d1;
-    color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+  
 
-.faq-answer {
+p {
+    color: #ffffff;
+    font-family: 'Barlow Condensed';
+    font-size: 24px;
+    padding: 1em;
+    border: 2px dotted #373b47;
+    margin: 30px 0 30px 0;
+  }
+
+  .faq-banner {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .accordian-label {
+    color: #ffffff;
+    background-color: #373b47;
+    font-family: 'Baloo 2';
+    letter-spacing: 1px;
+    border: 2px dashed #ffffff;
+    margin: 0 0 15px; /* Add margin-bottom to create space below each question box */
+    padding: 0.5em; /* Add padding to the label */
+    font-size: 1.5em;
+    line-height: 2em;
+    margin: 10px;
+    padding: 0.5em; /* Add padding to the label */
+    display: block; /* Ensure the label is a block-level element */
+    cursor: pointer; /* Add a pointer cursor for better UX */
+  }
+
+  .accordian-label:hover {
+    background: #bfc6d1;
+    color: #373b47;
+  }
+
+
+  input + label + .content {
     display: none;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 10px;
-}
+    text-align: center; /* Center the content within the answer box */
+    margin: 0 auto; /* Center the answer box itself */
+    max-width: 600px; /* Set a max-width for better readability */
+    padding: 1em; /* Add padding for spacing */
+  }
 
-.faq-question:hover {
-    background-color: #373b47;
-}
-
-.faq-question.active {
-    background-color: #373b47;
-}
-
-.faq-answer.show {
+  input:checked + label + .content {
     display: block;
+  }
+
+#title1 {
+  display: none;
+}
+
+#title2 {
+  display: none;
+}
+
+#title3 {
+  display: none;
+}
+
+#title4 {
+  display: none;
+}
+
+#title5 {
+  display: none;
+}
+
+#title6 {
+  display: none;
+}
+
+label {
+  color: var(--paragraph-color-on-color);
+}
+
+.email-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.email-section h2 {
+    color: #333;
+}
+
+.email-form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left within the form */
+}
+
+.email-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.email-form input,
+.email-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.email-form button {
+    display: block;
+    margin: 0 auto; /* Center the button */
+    padding: 10px 20px;
+    background-color: #373b47;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-form button:hover {
+    background-color: #1a1c22;
+}
+
+.faq-banner {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff; /* Set the text color to white */
+    font-family: 'Baloo 2';
+    letter-spacing: 1px;
+    border: 2px dashed #373b47;
+    font-size: 1.5em;
+    line-height: 2em;
+    padding: 0.5em;
+    display: block;
+    cursor: pointer;
 }
